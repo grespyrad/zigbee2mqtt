@@ -4,6 +4,7 @@ allowBuilds:
   "@serialport/bindings-cpp": true
   esbuild: true
   unix-dgram: true
+  zigbee-herdsman-converters@https://codeload.github.com/grespyrad/zigbee-herdsman-converters/tar.gz/13d0b00296f2c4ce56c845e3cdc76debc3901628: true
 
 minimumReleaseAgeExclude:
   - zigbee-herdsman

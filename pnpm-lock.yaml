@@ -57,8 +57,8 @@ importers:
         specifier: 11.0.3
         version: 11.0.3(supports-color@7.2.0)
       zigbee-herdsman-converters:
-        specifier: 26.118.0
-        version: 26.118.0(supports-color@7.2.0)
+        specifier: github:grespyrad/zigbee-herdsman-converters#13d0b00296f2c4ce56c845e3cdc76debc3901628
+        version: https://codeload.github.com/grespyrad/zigbee-herdsman-converters/tar.gz/13d0b00296f2c4ce56c845e3cdc76debc3901628(supports-color@7.2.0)
       zigbee2mqtt-frontend:
         specifier: 0.9.21
         version: 0.9.21
@@ -1275,8 +1275,9 @@ packages:
       utf-8-validate:
         optional: true
 
-  zigbee-herdsman-converters@26.118.0:
-    resolution: {integrity: sha512-BUwWsdGjzp0aNeSE3ha/1iCQqu/rBZYUIx8exf7UIvvx1nJ8M9hg5LuCNQQITkL68WI9rwRO1NREiM6n68FmQA==}
+  zigbee-herdsman-converters@https://codeload.github.com/grespyrad/zigbee-herdsman-converters/tar.gz/13d0b00296f2c4ce56c845e3cdc76debc3901628:
+    resolution: {gitHosted: true, integrity: sha512-I0gS2z27XWKKupR3xo+nli6L0L4/4PIgdlJkgX6OZREU+sHhYwwtsVf9sF/6mbOvRJj86HaGV7Nqw0JysaDemA==, tarball: https://codeload.github.com/grespyrad/zigbee-herdsman-converters/tar.gz/13d0b00296f2c4ce56c845e3cdc76debc3901628}
+    version: 26.118.0
     engines: {node: ^22.2.0 || ^24 || <=26.2}
 
   zigbee-herdsman@11.0.3:
@@ -2266,7 +2267,7 @@ snapshots:
 
   ws@8.22.0: {}
 
-  zigbee-herdsman-converters@26.118.0(supports-color@7.2.0):
+  zigbee-herdsman-converters@https://codeload.github.com/grespyrad/zigbee-herdsman-converters/tar.gz/13d0b00296f2c4ce56c845e3cdc76debc3901628(supports-color@7.2.0):
     dependencies:
       iconv-lite: 0.7.3
       semver: 7.8.5
